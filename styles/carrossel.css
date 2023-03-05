@@ -73,7 +73,6 @@
 .botoes__ancora:hover, .topicos__links:hover {
     background-color: var(--jaranja-hover);
     transition: 0.5s;
-    padding: 0.8em 0.7em;
 }
 
 .botoes__ancora {
