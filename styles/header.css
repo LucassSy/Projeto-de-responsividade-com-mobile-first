@@ -59,6 +59,17 @@
     background-clip: text;
 }
 
+.lista-menu__item:hover, .opcoes__itens:hover {
+    background: var(--azul-degrade);
+    cursor: pointer;
+    border-radius: 2px;
+}
+
+.lista-menu__item:hover > .lista-menu__link, .opcoes__itens:hover > .opcoes__link, .opcoes__rotulo:hover > .opcoes__itens {
+    -webkit-text-fill-color: var(--branco);
+    text-decoration: none;
+}
+
 .container__botao, .container__titulo, .opcoes, .container__texto{
     display: none;
 }
@@ -111,16 +122,6 @@
         padding: 1.5em 1em;
     }
 
-    .lista-menu__item:hover, .opcoes__itens:hover {
-        background: var(--azul-degrade);
-        cursor: pointer;
-        border-radius: 2px;
-    }
-
-    .lista-menu__item:hover > .lista-menu__link, .opcoes__itens:hover > .opcoes__link, .opcoes__rotulo:hover > .opcoes__itens {
-        -webkit-text-fill-color: var(--branco);
-        text-decoration: none;
-    }
 }
 
 @media screen and (min-width: 1728px) {
