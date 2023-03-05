@@ -19,7 +19,7 @@
 .topicos__links {
     background-color: var(--laranja);
     color: var(--branco);
-    padding: 1em;
+    padding: 0.7em;
     text-decoration: none;
     font-size: 14px;
     font-weight: 700;
@@ -39,6 +39,7 @@
 
     .topicos__links {
         font-size: 24px;     
+        padding: 1em;
     }
 
     .topicos__lista {
